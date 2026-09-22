@@ -4,7 +4,7 @@ int main() {
     printf("marks are:\n");
    int i;
     for (i = 0; i < 5; i++) {
-        printf("i/n", marks[i]);
+        printf("%d", marks[i]);
     }
     return 0;
 }
